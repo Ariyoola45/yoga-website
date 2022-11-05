@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* nav bar  */
+.first{
+     background: linear-gradient(rgba(219, 226, 118, 0.4), rgba(230,155,120,0.4)  ),url(../image/mohammad-khaksarmadani-4FDsNcCR8iQ-unsplash.jpg)no-repeat fixed   ;
+     background-size: cover;
+   width: 100vw;
+  
+   overflow: hidden;
+ 
+     
+}
+header{
+    
+    padding: 20px;
+   
+}
+header nav{
+    
+    margin: 40px;
+      overflow: hidden;
+}
+header ul{
+     display: flex;
+     
+}
+ul li{
+    text-transform: capitalize;
+    list-style-type: none;
+    padding-right: 30px;
+    font-size: 2rem;
+}
+.nav-s li a{
+    color: white;
+    text-decoration:  none;
+}
+
+li.logo{
+    padding-right:50% ;
+}
+.yoga{
+    border: 1px solid none;
+    background-color: blue;
+    padding: 30px;
+    width: 10vw;
+    height: 5vh;
+    border-radius: 10px;
+}
+/* the content body */
+.container-b{
+    margin-top: 10%;
+    margin-left: 5%;
+    display: flex;
+    
+}
+.imgb img{
+    flex-shrink: 7;
+    transition: 1s;
+    transition-duration: 1s;
+    transition-timing-function: 1s;
+    transition-delay: 1s;
+}
+img:hover{
+    transform:rotate(360deg);
+   
+}
+.text{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.text h2{
+    text-transform: capitalize;  
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+h2 span{
+    padding-bottom: 5px;
+    border-bottom: 1px solid blue;
+}
+.text p {
+    text-transform: capitalize;  
+    color: white;
+    font-size: 1.7rem;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+.text button{
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+    width: 7vw;
+    height: 4vh;
+    margin-right: 15px;
+    text-transform: capitalize;
+    color: white;
+   background-color:  rgba(219, 226, 118, 0.4);
+   transition: 1s;
+}
+.text button:hover{
+    background-color: rgba(198, 202, 137, 0.4) ;
+    color: rgb(245, 240, 240);
+}
+
+.text a {
+    color: white;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+}
+footer nav{
+    margin-bottom: 4%;
+   margin-top: 10%;
+   margin-left: 3%;
+}
+footer nav ul{
+    overflow: hidden;
+    display: flex;
+}
+
+footer nav ul li a{
+    color: white;
+    text-transform: capitalize;
+    text-decoration: none;
+}
